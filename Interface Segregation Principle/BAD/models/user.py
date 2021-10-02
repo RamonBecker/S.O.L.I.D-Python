@@ -5,9 +5,5 @@ class User():
         self.username = username
         self.email = email
 
-    def pay_bill(self):
-        raise NotImplementedError
-
-
-    def code(self):
+    def work(self):
         raise NotImplementedError
