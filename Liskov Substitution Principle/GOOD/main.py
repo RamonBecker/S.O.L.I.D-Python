@@ -21,8 +21,9 @@ if __name__ == '__main__':
         print(markdown_report)
     else:
         print(response['body'])
-
+        
     member = Member('RamonBecker', 'ramonbecker@teste.com')
     manager = Manager('Manager', 'manager@teste.com')
 
     print(member.members())
+    print(manager.members())
